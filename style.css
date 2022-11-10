@@ -1,0 +1,165 @@
+.navbar{
+
+    background-color:skyblue !important;
+}
+
+.nav-item a:hover{
+    text-decoration: underline;
+      
+
+}
+
+
+.carousel-inner img{
+    height: 90vh;
+}
+
+.carousel-item p {
+    color: black;
+    font-size: x-large;
+}
+
+.services{
+    /* border: 1px solid black;  */
+    /* box-shadow: 10px 10px 15px grey; */
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.card{
+ 
+    cursor: pointer;
+}
+
+.card:hover{
+    rotate: 30deg;
+    box-shadow: 10px 10px 15px grey;
+    transition: all ease-in-out .3s;
+    margin-top: -10px;
+}
+
+
+.row-title{
+    height: 10vh;
+    /* border: 1px solid green; */
+    margin-top: 10px;
+}
+.row-title h3{
+    margin-top: 10px;
+}
+
+.about{
+    /* border: 1px solid black; */
+   text-align: center;
+}
+
+.text-head{
+    margin-top: 30px;
+
+}
+
+.profile-pic img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50px;
+
+}
+
+.contact{
+    /* border: 1px solid red; */
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap ;
+}
+
+.contact-box{
+     /* border: 1px solid black;  */
+    height: 571px;
+    width: 600px;
+     background:bisque; 
+    padding: 3rem;
+    margin-bottom: 13rem;
+    
+}
+
+.footer{
+    /* border: 1px solid black; */
+    background:bisque;
+    height: 20vh;
+     
+}
+
+.col{
+    /* border: 1px solid red; */
+    height: 20vh; 
+     
+}
+
+ .footer-img{
+    height: 115px;
+    width: 160px;
+    /* border: 1px solid green;
+    background: lightblue; */
+    margin-left: 100px;
+    margin-top: 5px;
+ 
+
+} 
+.footer-img img{
+
+     height: 99px;
+    width: 159px; 
+}
+
+
+.copyright{
+    /* border: 1px solid yellow; */
+    height: 10vh;
+    background: grey;
+}
+
+.contact-footer{
+    display: inline-block;
+
+}
+
+.main-header{
+    /* border: 1px solid black; */
+    /* height: 30%; */
+    background: skyblue;
+    
+}
+.col-md-3{
+/* border: 1px solid red; */
+color: white;
+height: 29.99vh;
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 1rem;
+overflow-y: hidden;
+}
+
+.col-md-3 li{
+    list-style: none;
+}
+
+.col-md-3 li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.col-md-3 li a:hover{
+    text-decoration: underline;
+    color: black;
+}
